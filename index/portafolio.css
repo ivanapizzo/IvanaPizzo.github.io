@@ -1,0 +1,54 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ark;
+    src: url(/Portafolio/CSSavanzado/ark.otf);
+
+}
+
+:root {
+
+    --myVarColor: #A70707;
+    --myVarColorB: #4F2727;
+    --myVarColorC: #730707;
+    
+}
+
+
+body {
+
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+
+
+.ip {
+
+    font-family: ark;
+    color: #730707;
+    height: 750px;
+    width: 700px;
+    transition: 0.5s;
+    float: center;
+    margin-left: 5%;
+}
+
+.ip:hover {
+
+    /* filter: saturate(200%); */
+    filter: grayscale(150%);
+    /* -webkit-transform:scale(0.1);transform:scale(2s);}
+    .contenedor {overflow:hidden; */
+}
+
+
