@@ -1,0 +1,198 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: ark;
+    src: url(/IvanaPizzo.github.io/media/ark.otf);
+
+}
+
+:root {
+
+    --myVarColor: #A70707;
+    --myVarColorB: #4F2727;
+    --myVarColorC: #730707;
+    --myVarColorD: #0d0c0c;
+    --myVarColorE: #242222a7;
+    --myVarColorF: #272b2874; 
+    --myVarColorG: #6e191c;
+    
+}
+
+body {
+
+
+    flex-wrap: wrap;
+}
+
+
+nav {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--myVarColorD);
+    width: 100%;
+    height: 300px;
+}
+
+.nav_bar__links{
+
+    font-size: 18px;
+    display: flex;
+    font-family: ark;
+    letter-spacing: 0.4em;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+
+body nav div a {
+
+
+    color: white;
+    padding: 15px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    /* margin-left: 10%; */
+}
+
+.nav_bar__links ul a:hover {
+
+    color: var(--myVarColorB);
+    transition: 1s;
+    filter: grayscale(150%);
+    -webkit-transform:scale(1.5);transform:scale(5s);}
+    .contenedor {overflow:hidden;
+
+}
+
+
+.headOfPage {
+
+    display: block;
+    height: 700px;
+    max-width: 100%;
+    background-color: var(--myVarColorD);
+
+}
+
+
+.tecno_title {
+
+    display: block;
+    color: white;
+    font-size: 80px;
+    font-family: ark;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+.tecno_title:hover{
+
+
+    filter: grayscale(150%);
+    transition: 0.5s;
+}
+
+.tecno_skills {
+
+    display: block;
+    font-size: 26px;
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background-color: #730707; */
+    
+
+}
+
+.tecno_skills .h:hover {
+
+    cursor: pointer;
+    color: var(--myVarColorG);
+    /* filter: grayscale(150%);
+    transition: 1.0s; */
+     /* filter: saturate(200%); */
+    filter: saturate(200%);
+    transition: 0.8s
+    /* --webkit-transform;scale:(1.5);transform:scale(2s) }
+    .contenedor {overflow:hidden; */
+}
+
+
+footer {
+
+    display: flex;
+    background-color: var(--myVarColorD);
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    text-align: center;
+}
+
+
+.redes-sociales {
+
+    display: block;
+    justify-content: center;
+    float: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4%;
+    align-items: center;
+}
+
+
+.iconos-redes {
+
+display: flex;
+text-decoration: none;
+height: 150px;
+width: 150px; 
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+
+.fb, .tw, .linkedin, .ig {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.iconos-redes a:hover{
+
+    cursor: pointer;
+    color: var(--myVarColorG);
+    filter: grayscale(150%);
+    transition: 1.0s;
+    filter: saturate(200%);
+    transition: 0.8s
+    --webkit-transform;scale:(1.5);transform:scale(2s) }
+    .contenedor {overflow:hidden;
+}
